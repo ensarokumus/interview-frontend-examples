@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  text-align: inherit;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+  font: inherit;
+}
+
+.calc {
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 700px;
+}
+
+.mortgage-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.mortgage-form label {
+  font-size: small;
+}
+
+.mortgage-form button {
+  padding: 0.5rem 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background: lightsalmon;
+}
+
+.mortgage-results {
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
